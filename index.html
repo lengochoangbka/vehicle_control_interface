@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="StyleSheet1.css" />
+    <script type="text/javascript" src="JavaScript.js"></script>
+    <title>Xe Wifi</title>
+</head>
+
+<body>
+    <p id="tieuDe">Xe Wifi</p>
+    <button id="tienLen" ontouchstart="tienLen()" ontouchend="dungLai()">Tiến lên</button>
+    <button id="quayTrai" ontouchstart="quayTrai()" ontouchend="dungLai()">Quay trái</button>
+    <button id="quayPhai" ontouchstart="quayPhai()" ontouchend="dungLai()">Quay phai</button>
+    <button id="diLui" ontouchstart="diLui()" ontouchend="dungLai()">Đi lùi</button>
+    <button id="dungLai" ontouchstart="dungLai()" ontouchend="dungLai()">Stop</button>
+    <div id="thayDoiTocDo">
+        <input type="range" id="tocDo" value="255" min="150" max="255" step="1" class="customRange"
+            oninput="thayDoiTocDo()" />
+        <p>Tốc Độ: <span id="giaTriTocDo">255</span></p>
+    </div>
+    <script>
+        document.write("anhyeuem");
+    </script>
+
+    <body onmousedown='return false' onselectstart='return false '>
+    </body>
+
+</html>
